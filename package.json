@@ -1,6 +1,6 @@
 {
   "name": "use-binds",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "build complete form binds from veeValidate useForm()",
   "main": "index.ts",
   "scripts": {
