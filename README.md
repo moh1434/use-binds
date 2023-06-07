@@ -2,6 +2,14 @@
 This composable build form binds from veeValidate useForm() composable.
 
 Usage example:
+
+`
+npm i use-binds
+`
+or:
+`
+pnpm add use-binds
+`
 ```vue
 <script setup lang="ts">
 import { useBinds } from 'use-binds';
