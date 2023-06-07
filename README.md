@@ -4,6 +4,8 @@ This composable build form binds from veeValidate useForm() composable.
 Usage example:
 ```vue
 <script setup lang="ts">
+import { useBinds } from 'use-binds';
+
 const { handleSubmit, values, resetForm, defineComponentBinds } = useForm<ZodLoginSchemaType>({
   validationSchema,
 })
