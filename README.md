@@ -1,5 +1,5 @@
 # use-binds
-This composable build form binds from veeValidate useForm() composable.
+This composable generate form binds from veeValidate useForm() composable.
 
 Usage example:
 
@@ -16,6 +16,7 @@ import { useBinds } from 'use-binds';
 
 const { handleSubmit, values, resetForm, defineComponentBinds } = useForm<ZodLoginSchemaType>({
   validationSchema,
+  initialValues
 })
 const { formBinds } = useBinds(values, defineComponentBinds);
 </script>
