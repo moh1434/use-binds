@@ -1,4 +1,4 @@
-# use-veeValidate-binds
+# use-binds
 This composable build form binds from veeValidate useForm() composable.
 
 Usage example:
