@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/moh1434/use-veeValidate-binds.git"
+    "url": "git+https://github.com/moh1434/use-binds.git"
   },
   "keywords": [
     "veeValidate",
@@ -23,9 +23,9 @@
   "author": "moh1434",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/moh1434/use-veeValidate-binds/issues"
+    "url": "https://github.com/moh1434/use-binds/issues"
   },
-  "homepage": "https://github.com/moh1434/use-veeValidate-binds#readme",
+  "homepage": "https://github.com/moh1434/use-binds#readme",
   "dependencies": {
     "vue": "^3.3.4"
   }
