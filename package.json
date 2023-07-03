@@ -1,6 +1,6 @@
 {
   "name": "use-binds",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "generate form binds from veeValidate useForm() composable",
   "main": "index.ts",
   "scripts": {
