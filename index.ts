@@ -41,7 +41,7 @@ export function useBinds<
   //
   type FormType = {
     [k in keyof TValues]: Ref<
-      BaseComponentBinds<PathValue<TValues, Path<TValues>>> & GenericObject
+    BaseComponentBinds<any> & { 'error-messages':string[] } & GenericObject
     >
   }
   const formBinds: FormType = {} as FormType
