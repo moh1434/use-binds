@@ -38,6 +38,9 @@ export function useArrayObjectsBinds<
     binds.push(temp as any);
   };
 
+  /**
+  * @deprecated
+  */
   const decrement =()=>{
     binds.splice(bindsLength.value-1,1)
   }

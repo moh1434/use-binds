@@ -1,6 +1,5 @@
 import { Ref, computed, reactive } from 'vue'
 import { BaseComponentBinds, ComponentBindsConfig, GenericObject, LazyComponentBindsConfig, MaybeRefOrLazy, Path, PathValue } from './vee-validate.types'
-import { ObjectKeys } from './utils'
 
 export function useArrayBinds(
   arrayName:string,
@@ -29,6 +28,9 @@ export function useArrayBinds(
     )
   };
 
+  /**
+  * @deprecated
+  */
   const decrement =()=>{
     binds.splice(bindsLength.value-1,1)
   }
