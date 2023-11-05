@@ -11,7 +11,7 @@ export function useArrayObjectsBinds<
     TValue = BaseObject[],
     TExtras extends GenericObject = GenericObject,
   >(
-    path: MaybeRefOrLazy<typeof arrayName>,
+    path: any,
     config?:
       | Partial<ComponentBindsConfig<TValue, TExtras>>
       | LazyComponentBindsConfig<TValue, TExtras>
@@ -20,7 +20,7 @@ export function useArrayObjectsBinds<
   type Row=Ref<(BaseComponentBinds<any> & { 'error-messages':string[] } )>;
 
   const binds = reactive<
-   Array<{[k in `${typeof arrayName}[${number}].${Extract<keyof BaseObject, string>}`]:Row}>
+   Array<{[k in keyof BaseObject]:Row}>
   >([]);
   const bindsLength = computed(()=>binds.length);
 
